@@ -4,12 +4,13 @@
     "slug": "projeto-go-pizza",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/GoPizzaicon.png",
     "userInterfaceStyle": "light",
+
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/GOPizzaSplash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#B83341"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -21,13 +22,20 @@
       "supportsTablet": true
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+      "adaptiveIcon": { 
+        "foregroundImage": "./assets/GoPizzaicon.png",
+        "backgroundColor": "#B83341"
+      },
+      "package": "com.samukavlr.projetogopizza"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3b79ef3d-975a-4000-bc56-e34e2ab25e89"
+      }
+    },
+    "owner": "samukavlr"
   }
 }
