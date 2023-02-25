@@ -39,13 +39,13 @@ export function Cadastrar() {
     
   const navigation = useNavigation()
 
-  function handleLogin() {
+  function handleLogin(){
     navigation.navigate('Login')
   }
     return (
         <Nav>    
             <Header>
-                <Button title="Voltar"onPress={handleLogin}>
+                <Button  onPress={handleLogin}>
                     <Photo1 source ={seta}/>   
                 </Button>
                 <Title> Cadastrar</Title>

@@ -6,7 +6,6 @@
     "orientation": "portrait",
     "icon": "./assets/GoPizzaicon.png",
     "userInterfaceStyle": "light",
-
     "splash": {
       "image": "./assets/GOPizzaSplash.png",
       "resizeMode": "contain",
@@ -19,10 +18,11 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.samukavlr.projetogopizza"
     },
     "android": {
-      "adaptiveIcon": { 
+      "adaptiveIcon": {
         "foregroundImage": "./assets/GoPizzaicon.png",
         "backgroundColor": "#B83341"
       },

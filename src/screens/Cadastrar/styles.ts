@@ -6,6 +6,7 @@ import { LinearGradient } from 'expo-linear-gradient';
 import { TouchableOpacity } from 'react-native';
 import { Text } from 'react-native';
 
+
 export const Nav= styled.ScrollView`
 
     background-color:#F7F7F7;
