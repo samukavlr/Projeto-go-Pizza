@@ -50,7 +50,7 @@ export function Cadastrar() {
                 </Button>
                 <Title> Cadastrar</Title>
                 <Button>
-                    <Title1> Deletear</Title1>          
+                    <Title1> Deletar</Title1>          
                 </Button>
             </Header>
             <Container>
